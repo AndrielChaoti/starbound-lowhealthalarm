@@ -1,15 +1,15 @@
 --[[
-	Project:				low_health_alarm
-	Friendly Name: 	Low Health Alarm
-	Author: 				AndrielChaoti
+	Project:		lowHealthAlarm
+	Friendly Name:	Low Health Alarm
+	Author:			AndrielChaoti
 
-	File:						low_health_alarm.lua
-	Purpose: 				Main Scripts
 
-	Version: 				1.0
+	File:			low_health_alarm.lua
+	Purpose:		Main code, handles making the beeps happen
 
-	ALL RIGHTS RESERVED.
-	The contents of this source file are copyright ©2017 Donald "AndrielChaoti" Granger.
+	Copyright (c) Donald Granger. All Rights Reserved
+	Licenced under the MIT License. See LICENSE file in the project root 
+	for full licence information.
 ]]
 
 local lha_oldInit = init
