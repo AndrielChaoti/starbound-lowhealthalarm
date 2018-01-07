@@ -8,7 +8,7 @@
 	Purpose:		Main code, handles making the beeps happen
 
 	Copyright (c) Donald Granger. All Rights Reserved
-	Licenced under the MIT License. See LICENSE file in the project root 
+	Licenced under the MIT License. See LICENSE file in the project root
 	for full licence information.
 ]]
 
@@ -36,7 +36,8 @@ function update(...)
 	if not status.resourcePositive("breath") then return end
 
 	-- check for alarm:
-	if healthPrc <= self.lha_config.alarmThreshold then
+	if healthPrc <= self.lha_config.alarmThreshold
+		and status.resource("health") <= 0 then
 
 		-- has alarm started?
 		if self.criticalStartTime == 0 then
