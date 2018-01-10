@@ -37,7 +37,7 @@ function update(...)
 
 	-- check for alarm:
 	if healthPrc <= self.lha_config.alarmThreshold
-		and status.resource("health") <= 0 then
+		and status.resource("health") >= 0 then
 
 		-- has alarm started?
 		if self.criticalStartTime == 0 then
