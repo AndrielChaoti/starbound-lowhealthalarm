@@ -17,14 +17,6 @@ You can download this mod from the [**Chucklefish Forums**](https://community.pl
 ### :white_check_mark:Steam Workshop
 Subscribe to the mod on the [**Steam Workshop**](http://steamcommunity.com/sharedfiles/filedetails/?id=1086805718)
 
-## Version Differences
-
-#### Server
-This version requires you to install the mod on both client- and server-side, as it adds new sound assets to the game.
-The plus side of this is that you can customize it for your server with your own sound.
-#### Client
-This version should be safe to install locally, on your own client, without needing the server to also have a copy. It will use base game assets, and is not modifiable like the server version is.
-
 ## Changing this to your personal tastes
 **Note: These changes won't work on the Client version!**
 It's actually really quite simple to make changes to this mod. If you want to simply a setting in the mod, create a **.patch**. If you want to change the sound effect that it uses, overwrite the sound effect at **/sfx/interface/low_health_alarm.ogg**
