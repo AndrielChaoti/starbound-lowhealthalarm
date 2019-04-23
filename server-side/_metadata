@@ -6,6 +6,6 @@
   "name" : "lowHealthAlarm",
   "steamContentId" : "1086805718",
   "tags" : "Miscellaneous|User Interface|Mechanics",
-  "version" : "v1.1_release",
+  "version" : "v1.2_release",
   "includes" : ["FrackinUniverse"]
 }

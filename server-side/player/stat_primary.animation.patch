@@ -1,5 +1,0 @@
-[{
-  "op": "add",
-  "path": "/sounds/criticalHealth",
-  "value": ["/sfx/interface/low_health_alarm.ogg"]
-}]

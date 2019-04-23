@@ -15,12 +15,12 @@
 local lha_oldInit = init
 function init()
 	lha_oldInit()
+
 	self.criticalSoundTimer = 0
 	self.criticalStartTime = 0
 
 	self.lha_config = {}
 	self.lha_config = root.assetJson("/low_health_alarm.config")
-
 end
 
 
@@ -63,8 +63,10 @@ function update(...)
 				end
 			end
 
-			animator.setSoundVolume("criticalHealth", (volume and volume or 1), 0)
-			animator.playSound("criticalHealth")
+			if animator.hasSound("suffocate") then
+				animator.setSoundVolume("suffocate", (volume and volume or 1), 0)
+				animator.playSound("suffocate")
+			end
 
 		end
 
