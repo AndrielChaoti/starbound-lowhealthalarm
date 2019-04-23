@@ -10,21 +10,12 @@ There are two different versions of this mod: One for **client-side** installs, 
 
 ## Installation
 ### :warning:The manual way
-Copy your chosen release into your **Starbound** folder, into the **mods** directory.
-
+Copy the contents of **server-side** into a new folder in your **mods** directory called **LowHealthAlarm**.
 ### :warning:Chucklefish Forums
 You can download this mod from the [**Chucklefish Forums**](https://community.playstarbound.com/resources/low-health-alarm.4879/) as well. The same process as above, copy the download into your **mods** directory.
 
 ### :white_check_mark:Steam Workshop
 Subscribe to the mod on the [**Steam Workshop**](http://steamcommunity.com/sharedfiles/filedetails/?id=1086805718)
-
-## Version Differences
-
-#### Server
-This version requires you to install the mod on both client- and server-side, as it adds new sound assets to the game.
-The plus side of this is that you can customize it for your server with your own sound.
-#### Client
-This version should be safe to install locally, on your own client, without needing the server to also have a copy. It will use base game assets, and is not modifiable like the server version is.
 
 ## Changing this to your personal tastes
 **Note: These changes won't work on the Client version!**
